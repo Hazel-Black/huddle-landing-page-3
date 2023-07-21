@@ -15,7 +15,7 @@ This is a solution to the [Huddle landing page with single introductory section 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 
@@ -30,13 +30,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/Screenshot%202023-07-21%20at%208.31.42%20AM.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [huddle-landing-page-3](https://hazel-black.github.io/huddle-landing-page-3/)
 
 ## My process
 
@@ -49,34 +49,43 @@ Users should be able to:
 
 ### What I learned
 
-
+Im very proud of the nesting i did with this project. it became very usuful when styling the icons later on. 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+ <div class="icons">
+        <div class="facebook">
+          <i class="fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+      </div>
 ```
+Im also ver prouid of the work I did on the background image (destop version). It took alot of time to find the perfect resolution for my problems. I stuggled with tons of overflow, side scrolling ect. but I was able to resolve my issues with this code.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media (min-width: 724px) {
+  body {
+    background-image: url(images/bg-desktop.svg);
+    background-position: left -4em bottom -2.5em;
+    background-size: cover;
+    text-align: left;
+    width: fit-content;
+    max-width: 100%;
+  }
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 
 ### Continued development
-
+I'm currently looking forward to working on new projects and playing around with grid instead of flexbox. this was a great project to revist for sure! 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article 
+- [CSS Icons- W3Schools](https://www.w3schools.com/css/css_icons.asp) - This helped me to learn about using font awesome icons.
+- [Font Awesome](https://fontawesome.com/) - This is an amazing resources for icons, I used this site for all the icons I used. 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
-
-## Acknowledgments
+- Frontend Mentor - [@Hazel-Black](https://www.frontendmentor.io/profile/Hazel-Black)
+- LinkedIn - [@HazelBlack](www.linkedin.com/in/hazel-black-a40315237)
 
